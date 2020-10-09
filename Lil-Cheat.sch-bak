@@ -1960,43 +1960,43 @@ Wire Wire Line
 	3700 7150 3850 7150
 Wire Wire Line
 	4050 7150 4200 7150
-Text GLabel 3700 4950 2    50   Input ~ 0
-COL0
-Text GLabel 3700 5050 2    50   Input ~ 0
-COL1
-Text GLabel 3700 5150 2    50   Input ~ 0
-COL2
-Text GLabel 3700 5250 2    50   Input ~ 0
-COL3
-Text GLabel 3700 5350 2    50   Input ~ 0
-COL4
-Text GLabel 3700 5450 2    50   Input ~ 0
-COL5
-Text GLabel 3700 5550 2    50   Input ~ 0
-COL6
-Text GLabel 3700 5650 2    50   Input ~ 0
-COL7
-Text GLabel 3700 5850 2    50   Input ~ 0
-COL8
-Text GLabel 3700 5950 2    50   Input ~ 0
-COL9
 Text GLabel 3700 6050 2    50   Input ~ 0
-COL10
+COL0
 Text GLabel 3700 6150 2    50   Input ~ 0
-COL11
+COL1
 Text GLabel 3700 6250 2    50   Input ~ 0
-COL12
-Text GLabel 3700 6450 2    50   Input ~ 0
-COL13
-Text GLabel 3700 6550 2    50   Input ~ 0
-COL14
-Text GLabel 3700 6650 2    50   Input ~ 0
-ROW0
-Text GLabel 3700 6750 2    50   Input ~ 0
-ROW1
-Text GLabel 3700 6850 2    50   Input ~ 0
-ROW2
+COL2
+Text GLabel 3700 5550 2    50   Input ~ 0
+COL3
+Text GLabel 3700 5450 2    50   Input ~ 0
+COL4
+Text GLabel 3700 5350 2    50   Input ~ 0
+COL5
+Text GLabel 3700 5250 2    50   Input ~ 0
+COL6
+Text GLabel 3700 5050 2    50   Input ~ 0
+COL7
+Text GLabel 3700 4950 2    50   Input ~ 0
+COL8
 Text GLabel 3700 6950 2    50   Input ~ 0
+COL9
+Text GLabel 3700 6850 2    50   Input ~ 0
+COL10
+Text GLabel 3700 6750 2    50   Input ~ 0
+COL11
+Text GLabel 3700 5150 2    50   Input ~ 0
+COL12
+Text GLabel 3700 6550 2    50   Input ~ 0
+COL13
+Text GLabel 3700 6450 2    50   Input ~ 0
+COL14
+Text GLabel 3700 5950 2    50   Input ~ 0
+ROW0
+Text GLabel 3700 5650 2    50   Input ~ 0
+ROW1
+Text GLabel 3700 5850 2    50   Input ~ 0
+ROW2
+Text GLabel 3700 6650 2    50   Input ~ 0
 ROW3
 $Comp
 L Device:C_Small C4
@@ -2091,201 +2091,56 @@ Connection ~ 4900 4950
 Wire Wire Line
 	4900 4950 4750 4950
 $Comp
-L Power_Protection:SRV05-4 U2
-U 1 1 5FD42A2A
-P 8800 5350
-F 0 "U2" H 8800 6031 50  0000 C CNN
-F 1 "SRV05-4" H 8800 5940 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 9500 4900 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 8800 5350 50  0001 C CNN
-	1    8800 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5FD47DB5
-P 7300 4900
-F 0 "F1" V 7095 4900 50  0000 C CNN
-F 1 "500mA" V 7186 4900 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 7350 4700 50  0001 L CNN
-F 3 "~" H 7300 4900 50  0001 C CNN
-	1    7300 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 5FD48F9E
-P 7050 4900
-F 0 "#PWR0110" H 7050 4750 50  0001 C CNN
-F 1 "+5V" H 7065 5073 50  0000 C CNN
-F 2 "" H 7050 4900 50  0001 C CNN
-F 3 "" H 7050 4900 50  0001 C CNN
-	1    7050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0111
 U 1 1 5FD497C3
-P 7550 4900
-F 0 "#PWR0111" H 7550 4750 50  0001 C CNN
-F 1 "+5V" H 7565 5073 50  0000 C CNN
-F 2 "" H 7550 4900 50  0001 C CNN
-F 3 "" H 7550 4900 50  0001 C CNN
-	1    7550 4900
+P 4650 5700
+F 0 "#PWR0111" H 4650 5550 50  0001 C CNN
+F 1 "+5V" H 4665 5873 50  0000 C CNN
+F 2 "" H 4650 5700 50  0001 C CNN
+F 3 "" H 4650 5700 50  0001 C CNN
+	1    4650 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L usb-type-c:USB2_C_Receptacle J1
-U 1 1 5FD4E20F
-P 6200 5400
-F 0 "J1" H 6307 6217 50  0000 C CNN
-F 1 "USB2_C_Receptacle" H 6307 6126 50  0000 C CNN
-F 2 "usb-type-c:Mid_Mount-USB_C" H 6400 5450 50  0001 C CNN
-F 3 " ~" H 6400 5450 50  0001 C CNN
-	1    6200 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 4850 6800 4850
-Wire Wire Line
-	6800 4950 6700 4950
-Text GLabel 6900 4900 1    50   Input ~ 0
-VBUS
-Wire Wire Line
-	6800 4850 6800 4900
-Wire Wire Line
-	6800 4900 7050 4900
-Connection ~ 6800 4900
-Wire Wire Line
-	6800 4900 6800 4950
-Connection ~ 7050 4900
-Wire Wire Line
-	7050 4900 7200 4900
-Wire Wire Line
-	7400 4900 7550 4900
-$Comp
-L Device:R_Small R5
-U 1 1 5FDF8EEE
-P 6900 5100
-F 0 "R5" V 6950 5050 50  0000 L CNN
-F 1 "5.1k" V 6950 5150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6900 5100 50  0001 C CNN
-F 3 "~" H 6900 5100 50  0001 C CNN
-	1    6900 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5FDF988D
-P 6900 5200
-F 0 "R6" V 6950 5150 50  0000 L CNN
-F 1 "5.1k" V 6950 5250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6900 5200 50  0001 C CNN
-F 3 "~" H 6900 5200 50  0001 C CNN
-	1    6900 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5FDF9DE8
-P 7450 5200
-F 0 "#PWR0112" H 7450 4950 50  0001 C CNN
-F 1 "GND" H 7450 5100 50  0000 C CNN
-F 2 "" H 7450 5200 50  0001 C CNN
-F 3 "" H 7450 5200 50  0001 C CNN
-	1    7450 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5FDFA53C
-P 7550 5100
-F 0 "#PWR0113" H 7550 4850 50  0001 C CNN
-F 1 "GND" H 7550 5000 50  0000 C CNN
-F 2 "" H 7550 5100 50  0001 C CNN
-F 3 "" H 7550 5100 50  0001 C CNN
-	1    7550 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 5100 6800 5100
-Wire Wire Line
-	6600 5200 6800 5200
-Wire Wire Line
-	7000 5100 7550 5100
-Wire Wire Line
-	7000 5200 7450 5200
-NoConn ~ 6600 5800
-NoConn ~ 6600 5900
-Wire Wire Line
-	6600 5350 6750 5350
-Wire Wire Line
-	6750 5350 6750 5400
-Wire Wire Line
-	6750 5450 6600 5450
-Wire Wire Line
-	6600 5550 6750 5550
-Wire Wire Line
-	6750 5550 6750 5600
-Wire Wire Line
-	6750 5650 6600 5650
-Text GLabel 7150 5400 2    50   Input ~ 0
+Text GLabel 4650 5900 0    50   Input ~ 0
 D+
 Text GLabel 1650 5750 0    50   Input ~ 0
 D-
-Text GLabel 7150 5600 2    50   Input ~ 0
+Text GLabel 4650 5800 0    50   Input ~ 0
 D-
-Text GLabel 6900 5400 3    50   Input ~ 0
-D+ESD
-Text GLabel 7050 5600 3    50   Input ~ 0
-D-ESD
-Wire Wire Line
-	6750 5400 7150 5400
-Connection ~ 6750 5400
-Wire Wire Line
-	6750 5400 6750 5450
-Wire Wire Line
-	6750 5600 7150 5600
-Connection ~ 6750 5600
-Wire Wire Line
-	6750 5600 6750 5650
-Wire Wire Line
-	6000 6100 6000 6300
-Wire Wire Line
-	6000 6300 6100 6300
-Wire Wire Line
-	6200 6300 6200 6250
-Wire Wire Line
-	6100 6250 6100 6300
-Connection ~ 6100 6300
-Wire Wire Line
-	6100 6300 6200 6300
 $Comp
 L power:GND #PWR0114
 U 1 1 5FF03786
-P 6100 6300
-F 0 "#PWR0114" H 6100 6050 50  0001 C CNN
-F 1 "GND" H 6100 6200 50  0000 C CNN
-F 2 "" H 6100 6300 50  0001 C CNN
-F 3 "" H 6100 6300 50  0001 C CNN
-	1    6100 6300
+P 4650 6000
+F 0 "#PWR0114" H 4650 5750 50  0001 C CNN
+F 1 "GND" H 4650 5900 50  0000 C CNN
+F 2 "" H 4650 6000 50  0001 C CNN
+F 3 "" H 4650 6000 50  0001 C CNN
+	1    4650 6000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1700 2000 1350 2000
+Connection ~ 1700 2000
+Wire Wire Line
+	1700 2650 1350 2650
+Connection ~ 1700 2650
+Wire Wire Line
+	4750 5700 4650 5700
+Wire Wire Line
+	4750 5800 4650 5800
+Wire Wire Line
+	4750 5900 4650 5900
+Wire Wire Line
+	4750 6000 4650 6000
 $Comp
-L power:GND #PWR0115
-U 1 1 5FF03BAA
-P 8800 5850
-F 0 "#PWR0115" H 8800 5600 50  0001 C CNN
-F 1 "GND" H 8800 5750 50  0000 C CNN
-F 2 "" H 8800 5850 50  0001 C CNN
-F 3 "" H 8800 5850 50  0001 C CNN
-	1    8800 5850
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F9747C0
+P 4950 5800
+F 0 "J1" H 5030 5792 50  0000 L CNN
+F 1 "Conn_01x04" H 5030 5701 50  0000 L CNN
+F 2 "Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal" H 4950 5800 50  0001 C CNN
+F 3 "~" H 4950 5800 50  0001 C CNN
+	1    4950 5800
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 4850 1    50   Input ~ 0
-VBUS
-Text GLabel 8300 5250 0    50   Input ~ 0
-D-ESD
-Text GLabel 9300 5450 2    50   Input ~ 0
-D+ESD
 $EndSCHEMATC
